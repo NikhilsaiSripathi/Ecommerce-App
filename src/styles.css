@@ -1,0 +1,155 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+
+.navbar {
+  background-color: #333;
+  color: rgb(187, 180, 180);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: rgb(200, 219, 29);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 14px; 
+}
+
+.navbar a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 1rem;
+}
+
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.search-bar {
+  font-size: 15px; 
+  padding: 10px; 
+  width: 100px; 
+  border-radius: 5px;
+}
+
+/* Buttons */
+button {
+  background-color: #333;
+  color: rgb(248, 238, 238);
+  padding: 10px 10px; 
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px; 
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #575757;
+}
+
+
+.add-to-cart-btn {
+  font-size: 13px; 
+  padding: 5px 10px; 
+  border-radius: 5px;
+}
+
+
+.quantity-input {
+  font-size: 12px; 
+  padding: 5px; 
+  width: 40px; 
+  border-radius: 3px;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  margin: 10px;
+  padding: 15px; 
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(92, 90, 90, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+li h3 {
+  margin: 0;
+  color: #333;
+}
+
+.cart-summary {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart-summary h3 {
+  text-align: right;
+  color: #333;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination button {
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 12px; 
+}
+
+.pagination button:hover {
+  background-color: #575757;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
